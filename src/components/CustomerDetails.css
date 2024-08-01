@@ -1,0 +1,86 @@
+/* CustomerDetails.css */
+.customer-details {
+    flex: 2;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.customer-details.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.back-button {
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #e0e0e0;
+}
+
+.customer-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.customer-avatar.large {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-info h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.customer-title {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+.customer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.info-group {
+    flex: 1;
+    min-width: 200px;
+}
+
+.info-group h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 0.5rem;
+}
+
+.info-group p {
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+.info-group strong {
+    color: #333;
+}
