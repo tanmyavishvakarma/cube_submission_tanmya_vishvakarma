@@ -9,15 +9,10 @@ interface Props {
 }
 
 const CustomerDetails: React.FC<Props> = ({ customer, onBack }) => {
-    if (!customer) return <div className="customer-details empty">Please Select a Customer</div>;
+    if (!customer) return <div className="customer-details empty">Please Select a Customer from the List</div>;
 
     return (
         <div className="customer-details">
-            {onBack && (
-                <button onClick={onBack} className="back-button">
-                    &larr; Open List
-                </button>
-            )}
             <div className="customer-header">
                 <img src={customer.picture} alt={customer.name} className="customer-avatar large" />
                 <div className="customer-info">
