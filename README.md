@@ -1,6 +1,6 @@
 # Tanmya Vishvakarma Cube Submission
 
-A responsive single-page application built with React and TypeScript that displays a customer details portal.
+A responsive single-page application built with React and TypeScript displays a customer details portal. The application fetches information for only 20 people to ensure faster API response times, but this can be easily adjusted in the `services/api.ts` file.
 
 ## Deployed Link
 https://cube-tanmya-vishvakarma-submission.netlify.app
