@@ -2,6 +2,9 @@
 
 A responsive single-page application built with React and TypeScript that displays a customer details portal.
 
+## Deployed Link
+https://cube-tanmya-vishvakarma-submission.netlify.app
+
 ## Technologies Used
 
 - React
